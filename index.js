@@ -9,9 +9,9 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 //placeholders for added task
-const task = ["buy socks", "practise with nodejs"];
+const task = ["buy tomato", "practise with nodejs"];
 //placeholders for removed task
-const complete = ["finish jquery"];
+const complete = ["finished react"];
 
 //post route for adding new task 
 app.post("/addtask", function(req, res) {
