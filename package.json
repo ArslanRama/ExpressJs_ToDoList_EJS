@@ -2,9 +2,9 @@
   "name": "myfirstexpresssite",
   "version": "1.0.0",
   "description": "my first expressjs website",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon start.js"
+    "start": "nodemon index.js"
   },
   "author": "aslan",
   "license": "ISC",
